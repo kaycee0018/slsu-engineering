@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  background: white;
+  height: 55px;
+  width: 100%
+
+}
+
+label.logo{
+  font-family: "century gothic";
+  color: black;
+  font-size: 20px;
+  line-height: 55px;
+  padding: 0 100px;
+  text-transform: uppercase;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 55px;
+  margin: 0 10px;
+}
+
+nav ul li a{
+font-family: "century gothic";
+ color: black;
+ font-size: 16px;
+ padding: 10px 10px;
+ border-radius: 0px;
+ text-transform: uppercase;
+}
+
+a.active,a:hover{
+ background: #C6C6C6;
+ transition: .5s;
+}
+
+.cover{
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.tagline h1{
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 100px;
+  color: white;
+  font-family: "century gothic";
+  font-size: 70px;
+}
+
+.tagline p{
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 100px;
+  color: white;
+  font-family: "century gothic";
+}
+
+.button{
+  position: absolute;
+  margin-top: 480px;
+  margin-left: 100px;
+}
+
+.button .btn{
+  border: none;
+  color: black;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button .btn:hover{
+  background: #C6C6C6;
+  letter-spacing: 2px;
+}
+
+.about h2{
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 700px;
+  font-family: "century gothic";
+  font-size: 30px;
+}
+
+.software{
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 250px;
+}
+
+.software i{
+  font-size: 100px;
+}
+
+.software label{
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.soft1 p{
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 1320px;
+  margin-left: 120px;
+}
+
+.program{
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 650px;
+}
+
+.program i{
+  font-size: 100px;
+}
+
+.program label{
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.prog1 p{
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 1320px;
+  margin-left: 570px;
+}
+
+.edit{
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 1050px;
+}
+
+.edit i{
+  font-size: 100px;
+}
+
+.edit label{
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 23px;
+}
+
+.edit1 p{
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 1320px;
+  margin-left: 570px;
+}
+
+.hardware{
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 1450px;
+}
+
+.hardware i{
+  font-size: 100px;
+}
+
+.hardware label{
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10px;
+}

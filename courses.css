@@ -1,0 +1,547 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+nav{
+  position: absolute;
+  top: 0;
+  background: white;
+  height: 55px;
+  width: 100%
+
+}
+
+label.logo{
+  font-family: "century gothic";
+  color: black;
+  font-size: 20px;
+  line-height: 55px;
+  padding: 0 80px;
+  text-transform: uppercase;
+}
+
+.slsulogo {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 55px;
+  margin: 0 10px;
+}
+
+nav ul li a{
+font-family: "century gothic";
+ color: black;
+ font-size: 16px;
+ padding: 10px 10px;
+ border-radius: 0px;
+ text-transform: uppercase;
+}
+
+a.active,a:hover{
+ background: #C6C6C6;
+ transition: .5s;
+}
+
+.cover{
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.engineering h1{
+  font-size: 65px;
+  font-family: "arial black";
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 100px;
+  color: white;
+}
+
+.slsuengr{
+  font-size: 20px;
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 750px;
+}
+
+.civil img{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.7);
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 530px;
+}
+
+#box{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  position: absolute;
+  background: #E8E6E6;
+  margin-top: 1450px;
+  margin-left: 530px;
+  height: 250px;
+  width: 900px;
+}
+
+.civil h3{
+  font-size: 25px;
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 1470px;
+  margin-left: 550px;
+}
+
+.civil p{
+  position: absolute;
+  font-size: 17px;
+  font-family: "century gothic";
+  margin-top: 1510px;
+  margin-left: 550px;
+
+}
+
+.civil .button{
+  position: absolute;
+  margin-top: 1620px;
+  margin-left: 550px;
+  background: rgb(0,0,0,0.1)
+}
+
+.civil .button .btn{
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.civil .button .btn:hover{
+  background: #C6C6C6;
+  letter-spacing: 2px;
+}
+
+.computer img{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.7);
+  position: absolute;
+  margin-top: 1850px;
+  margin-left: 530px;
+}
+
+#box1{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  position: absolute;
+  background: #E8E6E6;
+  margin-top: 2300px;
+  margin-left: 530px;
+  height: 250px;
+  width: 900px;
+}
+
+.computer h3{
+  font-size: 25px;
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 2320px;
+  margin-left: 550px;
+}
+
+.computer p{
+  position: absolute;
+  font-size: 17px;
+  font-family: "century gothic";
+  margin-top: 2360px;
+  margin-left: 550px;
+
+}
+
+.computer .button{
+  position: absolute;
+  margin-top: 2470px;
+  margin-left: 550px;
+  background: rgb(0,0,0,0.1)
+}
+
+.computer .button .btn{
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.computer .button .btn:hover{
+  background: #C6C6C6;
+  letter-spacing: 2px;
+}
+
+.electrical img{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.7);
+  position: absolute;
+  margin-top: 2700px;
+  margin-left: 530px;
+}
+
+#box2{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  position: absolute;
+  background: #E8E6E6;
+  margin-top: 3150px;
+  margin-left: 530px;
+  height: 250px;
+  width: 900px;
+}
+
+.electrical h3{
+  font-size: 25px;
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 3170px;
+  margin-left: 550px;
+}
+
+.electrical p{
+  position: absolute;
+  font-size: 17px;
+  font-family: "century gothic";
+  margin-top: 3210px;
+  margin-left: 550px;
+
+}
+
+.electrical .button{
+  position: absolute;
+  margin-top: 3320px;
+  margin-left: 550px;
+  background: rgb(0,0,0,0.1)
+}
+
+.electrical .button .btn{
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.electrical .button .btn:hover{
+  background: #C6C6C6;
+  letter-spacing: 2px;
+}
+
+.electronics img{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.7);
+  position: absolute;
+  margin-top: 3550px;
+  margin-left: 530px;
+}
+
+#box3{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  position: absolute;
+  background: #E8E6E6;
+  margin-top: 4000px;
+  margin-left: 530px;
+  height: 250px;
+  width: 900px;
+}
+
+.electronics h3{
+  font-size: 25px;
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 4020px;
+  margin-left: 550px;
+}
+
+.electronics p{
+  position: absolute;
+  font-size: 17px;
+  font-family: "century gothic";
+  margin-top: 4060px;
+  margin-left: 550px;
+
+}
+
+.electronics .button{
+  position: absolute;
+  margin-top: 4170px;
+  margin-left: 550px;
+  background: rgb(0,0,0,0.1)
+}
+
+.electronics .button .btn{
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.electronics.button .btn:hover{
+  background: #C6C6C6;
+  letter-spacing: 2px;
+}
+
+.industrial img{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.7);
+  position: absolute;
+  margin-top: 4400px;
+  margin-left: 530px;
+}
+
+#box4{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  position: absolute;
+  background: #E8E6E6;
+  margin-top: 4850px;
+  margin-left: 530px;
+  height: 250px;
+  width: 900px;
+}
+
+.industrial h3{
+  font-size: 25px;
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 4870px;
+  margin-left: 550px;
+}
+
+.industrial p{
+  position: absolute;
+  font-size: 17px;
+  font-family: "century gothic";
+  margin-top: 4910px;
+  margin-left: 550px;
+
+}
+
+.industrial .button{
+  position: absolute;
+  margin-top: 5020px;
+  margin-left: 550px;
+  background: rgb(0,0,0,0.1)
+}
+
+.industrial .button .btn{
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.electronics.button .btn:hover{
+  background: #C6C6C6;
+  letter-spacing: 2px;
+}
+
+.mechanical img{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.7);
+  position: absolute;
+  margin-top: 5250px;
+  margin-left: 530px;
+}
+
+#box5{
+  color: #C9C9C9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  position: absolute;
+  background: #E8E6E6;
+  margin-top: 5700px;
+  margin-left: 530px;
+  height: 250px;
+  width: 900px;
+}
+
+.mechanical h3{
+  font-size: 25px;
+  font-family: "century gothic";
+  position: absolute;
+  margin-top: 5720px;
+  margin-left: 550px;
+}
+
+.mechanical p{
+  position: absolute;
+  font-size: 17px;
+  font-family: "century gothic";
+  margin-top: 5760px;
+  margin-left: 550px;
+
+}
+
+.mechanical .button{
+  position: absolute;
+  margin-top: 5870px;
+  margin-left: 550px;
+  background: rgb(0,0,0,0.1)
+}
+
+.mechanical .button .btn{
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.mechanical.button .btn:hover{
+  background: #C6C6C6;
+  letter-spacing: 2px;
+}
+
+#box6{
+  position: absolute;
+  background: black;
+  margin-top: 6050px;
+  height: 170px;
+  width: 100%;
+}
+
+.location h3{
+  position: absolute;
+  color: white;
+  margin-top: 6080px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: "century gothic";
+}
+
+.location p{
+  position: absolute;
+  color: white;
+  margin-top: 6110px;
+  margin-left: 100px;
+  font-size: 15px;
+  font-family: "century gothic";
+}
+
+
+.connect h3{
+  position: absolute;
+  color: white;
+  margin-top: 6080px;
+  margin-left: 400px;
+  font-size: 20px;
+  font-family: "century gothic";
+}
+
+.connect .connection ul{
+  position: absolute;
+  color: white;
+  margin-top: 6110px;
+  margin-left: 400px;
+  font-size: 15px;
+  font-family: "century gothic";
+}
+
+.connect .connection ul li i{
+  color: white;
+  font-size: 20px;
+}
+
+.vision h3{
+  position: absolute;
+  color: white;
+  margin-top: 6080px;
+  margin-left: 800px;
+  font-size: 20px;
+  font-family: "century gothic";
+}
+
+.vision p{
+  position: absolute;
+  color: white;
+  margin-top: 6110px;
+  margin-left: 800px;
+  font-size: 15px;
+  font-family: "century gothic";
+}
+
+.mission h3{
+  position: absolute;
+  color: white;
+  margin-top: 6080px;
+  margin-left: 1300px;
+  font-size: 20px;
+  font-family: "century gothic";
+}
+
+.mission p{
+  position: absolute;
+  color: white;
+  margin-top: 6110px;
+  margin-left: 1300px;
+  font-size: 15px;
+  font-family: "century gothic";
+}
